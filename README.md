@@ -49,7 +49,7 @@ The slight creak of the chair echoes around the whole room.
 You take a closer look at the monitor screen and notice that aside from the blinking cursor, the terminal also features the word "DON'T."
 Nonsense, you think to yourself.
 
-![](misc/eng/images/day3_kursor.png)
+![day3_kursor](misc/eng/images/day3_kursor.png)
 
 \> *Look at the desk*
 
