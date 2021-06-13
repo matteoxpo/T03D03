@@ -24,7 +24,7 @@ The russian version of the task can be found in the repository.
 4. [Chapter IV](#chapter-iv)  
 
 
-## Chapter I
+# Chapter I
 
 ## Level 1. Room 3.
 
@@ -64,7 +64,7 @@ You notice a couple of wrinkled and old pieces of paper underneath. They look li
 ***LOADING…***
 
 
-## Chapter II
+# Chapter II
 
 ## List 1.
 
@@ -143,7 +143,7 @@ It seems like you are not the first visitor in this room. Someone forgot to writ
 ***LOADING…***
 
 
-## Chapter III
+# Chapter III
 
 ## Quest 1. Introducing.
 
@@ -340,7 +340,7 @@ You're starting to think that the AI is just blatantly using you. But you still 
 ***LOADING…***
 
 
-## Chapter IV
+# Chapter IV
 
 When you're done with the cracking module and find the suitable point for the electronic lock pick, the lock finally clicks and the door opens. All there's left to do is take a step into the next room..
 
