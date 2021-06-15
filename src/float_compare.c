@@ -3,8 +3,7 @@
  
 double fun();
  
-int main()
-{
+int main(){
    double res = fun();
   
    // CHANGE THIS IF - AI
@@ -15,8 +14,7 @@ int main()
 }
  
 // DO NOT TOUCH THIS FUNCTION - AI
-double fun()
-{
+double fun(){
    return (1.0 / 13) * (pow(((2 - 1.0) / (2 + 1.0)), 20));
 }
  

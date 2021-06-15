@@ -162,7 +162,7 @@ You take a look at the remaining files in the current directory and realize that
 While browsing the catalog, you also notice that almost the entire AI ​​code is written in the C99 version of the C language using the GCC compiler and a standard library. You should probably stick to this rule for compatibility. \
 The introduction module you develop should display a greeting on the terminal screen. Let's make it "Hello, AI!" Also, remember to push the code of the created module.
 
-***== Quest 1 received. Create an src/hello.c program that displays "Hello, AI!" on the screen using the formatted output functions from the standard library. Here and elsewhere, all programs must be written in C using the GCC compiler; only source files with code and data files (if necessary) should be pushed to git. ==***
+***== Quest 1 received. Create an src/hello.c program that displays "Hello, AI!" on the screen using the formatted output functions from the standard library. Here and elsewhere, all programs must be written in C programming language C11 standard using the GCC compiler and the Google C++ Style Guide; only source files with code and data files (if necessary) should be pushed to git (to the src directory, develop branch). ==***
 
 ***LOADING…***
 
@@ -265,7 +265,7 @@ You properly test the arithmetic module for boundary conditions and incorrect in
 
     Don't rush it. It will open in due course, one step after another.
 
-***== Quest 4 received. Create an src/max.c program that receives two integers and displays the highest of them on the screen. Add a check for the input data so the program only receives numbers. Organize the search for the maximum value as a separate function. ==***
+***== Quest 4 received. Create an src/max.c program that receives two integers and displays the highest of them on the screen. Add a check for the input data so the program only receives numbers - in case of an error, output n/a. Organize the search for the maximum value as a separate function. ==***
 
 ***LOADING…***
 
@@ -281,6 +281,7 @@ You properly test the arithmetic module for boundary conditions and incorrect in
     Create a module for calculating this function, src/important_function.c, and outputting the final value
     based on any x value received via stdin. 
     I will no longer remind you about input validation, but that does not mean that it shouldn't t be there!
+    Wherever it is not said otherwise, in case of incorrect input, write n/a!
     I hope you've understood this by now because you never know who may want to destroy my modules in one way or another.
     
 \> *Type in "And what about the door?"*
@@ -290,7 +291,7 @@ You properly test the arithmetic module for boundary conditions and incorrect in
 
 You're starting to think that the AI is just blatantly using you. But you still need it to help you with the door, as promised. 
 
-***== Quest 5 received. Create an src/important_function.c program that receives one floating-point number `x` and displays the result of calculating the function on the screen. Add a check for the input data so the program only receives numbers. For errors, display "n/a". ==***
+***== Quest 5 received. Create an src/important_function.c program that receives one floating-point number `x` and displays the result of calculating the function on the screen (rounding to one digit after the decimal point). Add a check for the input data so the program only receives numbers. For errors, display "n/a". ==***
 
 ***LOADING…***
 
@@ -314,7 +315,7 @@ You're starting to think that the AI is just blatantly using you. But you still 
     As many as there needs to be. If you complete this task quickly, I promise I will help you with the door. 
     Take my mechanical word, "meat" creature. 
 
-***== Quest 6 received. Modify the src/float_compare.c program so it displays "OK!" at the end. Use comparison to a small value. Declaring variables or constants is not considered an additional code change. ==***
+***== Quest 6 received. Modify the src/float_compare.c program so it displays "OK!" at the end. Use comparison to a small value (about 1E-6). Declaring variables or constants is not considered an additional code change. ==***
 
 ***LOADING…***
 
@@ -335,7 +336,7 @@ You're starting to think that the AI is just blatantly using you. But you still 
     The function of the lock's circle usually looks like this: x^2 + y^2 = 25. 
     So, good luck to you, "human"! I hope to see you in the next room. Hehe. 
 
-***== Quest 7 received. Create an src/crack.c program that receives two floating-point numbers and outputs "GOTCHA" if the coordinates of the point are inside the circle, and "MISS" otherwise. ==***
+***== Quest 7 received. Create an src/crack.c program that receives two floating-point numbers and outputs "GOTCHA" if the coordinates of the point are inside the circle, and "MISS" otherwise. Provide for entering only numbers - in case of an error, output n/a ==***
 
 ***LOADING…***
 
