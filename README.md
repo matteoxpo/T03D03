@@ -159,7 +159,7 @@ You check the open catalog in the terminal and find the AI module, just like the
     Add the introduction module!
 
 You take a look at the remaining files in the current directory and realize that you need to check the repository. However, the src folder of the repository does not contain anything that looks like an introduction module. Seems like you'll have to create it yourself. \
-While browsing the catalog, you also notice that almost the entire AI ​​code is written in the C99 version of the C language using the GCC compiler and a standard library. You should probably stick to this rule for compatibility. \
+While browsing the catalog, you also notice that almost the entire AI ​​code is written in the C11 version of the C language using the GCC compiler and a standard library. You should probably stick to this rule for compatibility. \
 The introduction module you develop should display a greeting on the terminal screen. Let's make it "Hello, AI!" Also, remember to push the code of the created module.
 
 ***== Quest 1 received. Create an src/hello.c program that displays "Hello, AI!" on the screen using the formatted output functions from the standard library. Here and elsewhere, all programs must be written in C programming language C11 standard using the GCC compiler and the Google C++ Style Guide; only source files with code and data files (if necessary) should be pushed to git (to the src directory, develop branch). ==***
@@ -199,7 +199,7 @@ Nothing else was happening for some time when you suddenly started seeing words 
 
 The cheat sheet told you not to anger it so it can help you with the door. However, it seems like this dude likes to blow things out of proportion. In any case, you should fix the introduction module and add the option for entering a name at the very beginning, via stdin. The output, in this case, should be changed to "Hello, \<name>!"
 
-***== Quest 2 received. Create an src/named_hello.c program that receives a `name` string via stdin and outputs "Hello, `name`!" to the screen. ==***
+***== Quest 2 received. Create an src/named_hello.c program that receives a `name` string via stdin and outputs "Hello, `name`!" to the screen. Only source files with code and data files (if necessary) should be pushed to git (to the src directory, develop branch).  ==***
 
 ***LOADING…***
 
@@ -244,7 +244,7 @@ You finish the introduction module for the second time and decide to start the A
     It can give me a headache.
     (Joking.)
 
-***== Quest 3 received. Create an src/arithmetic.c program that receives two integers via stdin and outputs their sum, difference, product, and quotient, in this particular order. Add a check for the input data so the program only receives numbers. Add the option for processing division by zero (output "n/a"). ==***
+***== Quest 3 received. Create an src/arithmetic.c program that receives two integers via stdin and outputs their sum, difference, product, and quotient, in this particular order. Add a check for the input data so the program only receives numbers. Add the option for processing division by zero (output "n/a"). Only source files with code and data files (if necessary) should be pushed to git (to the src directory, develop branch).  ==***
 
 ***LOADING…***
 
@@ -265,7 +265,7 @@ You properly test the arithmetic module for boundary conditions and incorrect in
 
     Don't rush it. It will open in due course, one step after another.
 
-***== Quest 4 received. Create an src/max.c program that receives two integers and displays the highest of them on the screen. Add a check for the input data so the program only receives numbers - in case of an error, output n/a. Organize the search for the maximum value as a separate function. ==***
+***== Quest 4 received. Create an src/max.c program that receives two integers and displays the highest of them on the screen. Add a check for the input data so the program only receives numbers — in case of an error, output n/a. Organize the search for the maximum value as a separate function. Only source files with code and data files (if necessary) should be pushed to git (to the src directory, develop branch, this will no longer be recalled in the future...) ==***
 
 ***LOADING…***
 
@@ -277,7 +277,7 @@ You properly test the arithmetic module for boundary conditions and incorrect in
     Good. While you were working on it, I discovered another problem.
     I need you to fix this one too.
     I can't calculate the exact value of the function:
-    y = 7e-3 * x^4 + ((22.8 * x^⅓ - 1e3) * x + 3) / (x * x / 2) - x * (10 + x)^(2/x)- 1.01. 
+    y = 7e-3 * x^4 + ((22.8 * x^⅓ - 1e3) * x + 3) / (x * x / 2) - x * (10 + x)^(2/x) - 1.01. 
     Create a module for calculating this function, src/important_function.c, and outputting the final value
     based on any x value received via stdin. 
     I will no longer remind you about input validation, but that does not mean that it shouldn't t be there!
@@ -331,12 +331,12 @@ You're starting to think that the AI is just blatantly using you. But you still 
     As you've probably noticed, the lock on the door in this room is round.
     Breaking this door open is extremely simple: you need to stick an electronic lock pick inside the circle. 
     The cracking module, src/crack.c, must therefore receive two floating-point numbers – 
-    the x and y coordinates of the point – the electronic lock pick,
+    the x and y coordinates of the point — the electronic lock pick,
     and output "GOTCHA" if the coordinates of the point are exactly _inside_ the circle, and "MISS" otherwise. 
     The function of the lock's circle usually looks like this: x^2 + y^2 = 25. 
     So, good luck to you, "human"! I hope to see you in the next room. Hehe. 
 
-***== Quest 7 received. Create an src/crack.c program that receives two floating-point numbers and outputs "GOTCHA" if the coordinates of the point are inside the circle, and "MISS" otherwise. Provide for entering only numbers - in case of an error, output n/a ==***
+***== Quest 7 received. Create an src/crack.c program that receives two floating-point numbers and outputs "GOTCHA" if the coordinates of the point are inside the circle, and "MISS" otherwise. Provide for entering only numbers — in case of an error, output n/a ==***
 
 ***LOADING…***
 
@@ -346,5 +346,3 @@ You're starting to think that the AI is just blatantly using you. But you still 
 When you're done with the cracking module and find the suitable point for the electronic lock pick, the lock finally clicks and the door opens. All there's left to do is take a step into the next room..
 
 ***LO AD I N …***
-
-
