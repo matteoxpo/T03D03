@@ -235,7 +235,7 @@ You finish the introduction module for the second time and decide to start the A
     Find it and fix it, or write it from scratch so I can 
     add, subtract, multiply, and divide two numbers I receive via stdin.
     As an output, it must display 4 new numbers that represent 
-    the sum, difference, product, and quotient of those two numbers.
+    the sum, difference, product, and the integer part of quotient of those two numbers.
     In this particular order. 
     Let's get to work! There is an old game I can't run without this module...
     I recommend checking code-samples for inspiration.
@@ -244,7 +244,7 @@ You finish the introduction module for the second time and decide to start the A
     It can give me a headache.
     (Joking.)
 
-***== Quest 3 received. Create an src/arithmetic.c program that receives two integers via stdin and outputs their sum, difference, product, and the integer part of their quotient, in this particular order. Add a check for the input data so the program only receives numbers. Add the option for processing division by zero (output "n/a"). Only source files with code and data files (if necessary) should be pushed to git (to the src directory, develop branch).  ==***
+***== Quest 3 received. Create an src/arithmetic.c program that receives two integers via stdin and outputs their sum, difference, product, and quotient, separated by a space in this particular order. Add a check for the input data so the program only receives numbers. The answer must not end with a space. Add the option for processing division by zero (output "n/a"). Only source files with code and data files (if necessary) should be pushed to git (to the src directory, develop branch).  ==***
 
 ***LOADING…***
 
