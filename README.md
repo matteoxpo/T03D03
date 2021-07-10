@@ -2,7 +2,7 @@
 The russian version of the task can be found in the repository.
 
 ![This day will help you get acquainted with the base operations in C such as input, output, and arithmetic.](misc/eng/images/day3_door.png)
-
+    
 
 ## Contents
 
