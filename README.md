@@ -1,6 +1,8 @@
 # T03D03
 The russian version of the task can be found in the repository.
 
+You can find some useful video materials [here](https://edu.21-school.ru/video/selection/e38c4930-6dff-4409-9198-19508762db24).
+
 ![This day will help you get acquainted with the base operations in C such as input, output, and arithmetic.](misc/eng/images/day3_door.png)
     
 
