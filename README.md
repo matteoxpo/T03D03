@@ -164,9 +164,9 @@ You take a look at the remaining files in the current directory and realize that
 While browsing the catalog, you also notice that almost the entire AI ​​code is written in the C11 version of the C language using the GCC compiler and a standard library. You should probably stick to this rule for compatibility. \
 The introduction module you develop should display a greeting on the terminal 
 screen. Let's make it "Hello, AI!" Also, remember to push the code of the 
-created module. And a small hint-a restriction: it is allowed to connect only the header file `<stdio.h>`
+created module.
 
-***== Quest 1 received. Create an src/hello.c program that displays "Hello, AI!" on the screen using the formatted output functions from the standard library. Here and elsewhere, all programs must be written in C programming language C11 standard using the GCC compiler and the Google C++ Style Guide; only source files with code and data files (if necessary) should be pushed to git (to the src directory, develop branch). ==***
+***== Quest 1 received. Create an src/hello.c program that displays "Hello, AI!" on the screen using the formatted output functions from the standard library. Here and elsewhere, all programs must be written in C programming language C11 standard using the GCC compiler and the Google C++ Style Guide; only source files with code and data files (if necessary) should be pushed to git (to the src directory, develop branch). It is allowed to connect only the header file `<stdio.h>` ==***
 
 ***LOADING…***
 
@@ -206,12 +206,12 @@ However, it seems like this dude likes to blow things out of proportion.
 In any case, you should fix the introduction module and add the option 
 for entering a name at the very beginning, via stdin. The output, in this 
 case, should be changed to "Hello, \<name>!" And do not forget that
-AI is a program, which means that it must have a digital name.
+AI is a program, which means that it must have a digital name. 
 
 ***== Quest 2 received. Create an src/named_hello.c program that receives 
 an integer `name` via stdin and outputs "Hello, `name`!" to the screen. 
 Only source files with code and data files (if necessary) should be 
-pushed to git (to the src directory, develop branch).  ==***
+pushed to git (to the src directory, develop branch). There is also a restriction: only `<stdio.h>` can be used. ==***
 
 ***LOADING…***
 
@@ -256,7 +256,7 @@ You finish the introduction module for the second time and decide to start the A
     It can give me a headache.
     (Joking.)
 
-***== Quest 3 received. Create an src/arithmetic.c program that receives two integers via stdin and outputs their sum, difference, product, and quotient, separated by a space in this particular order. Add a check for the input data so the program only receives numbers. The answer must not end with a space. Add the option for processing division by zero (output "n/a"). Only source files with code and data files (if necessary) should be pushed to git (to the src directory, develop branch).  ==***
+***== Quest 3 received. Create an src/arithmetic.c program that receives two integers via stdin and outputs their sum, difference, product, and quotient, separated by a space in this particular order. Add a check for the input data so the program only receives numbers. The answer must not end with a space. Add the option for processing division by zero (output "n/a"). Only source files with code and data files (if necessary) should be pushed to git (to the src directory, develop branch). It is allowed to connect only the header file `<stdio.h>` ==***
 
 | Input | Output |
 | ------ | ------ |
@@ -282,7 +282,7 @@ You properly test the arithmetic module for boundary conditions and incorrect in
 
     Don't rush it. It will open in due course, one step after another.
 
-***== Quest 4 received. Create an src/max.c program that receives two integers and displays the highest of them on the screen. Add a check for the input data so the program only receives numbers — in case of an error, output n/a. Organize the search for the maximum value as a separate function. Only source files with code and data files (if necessary) should be pushed to git (to the src directory, develop branch, this will no longer be recalled in the future...) ==***
+***== Quest 4 received. Create an src/max.c program that receives two integers and displays the highest of them on the screen. Add a check for the input data so the program only receives numbers — in case of an error, output n/a. Organize the search for the maximum value as a separate function. Only source files with code and data files (if necessary) should be pushed to git (to the src directory, develop branch, this will no longer be recalled in the future...) Only the `<stdio.h>` library can be included. ==***
 
 | Input | Output |
 | ------ | ------ |
@@ -313,7 +313,7 @@ You properly test the arithmetic module for boundary conditions and incorrect in
 
 You're starting to think that the AI is just blatantly using you. But you still need it to help you with the door, as promised. 
 
-***== Quest 5 received. Create an src/important_function.c program that receives one floating-point number `x` and displays the result of calculating the function on the screen (rounding to one digit after the decimal point). Add a check for the input data so the program only receives numbers. For errors, display "n/a". ==***
+***== Quest 5 received. Create an src/important_function.c program that receives one floating-point number `x` and displays the result of calculating the function on the screen (rounding to one digit after the decimal point). Add a check for the input data so the program only receives numbers. For errors, display "n/a". In this quest, in addition to `<stdio.h>` you can use the library `<math.h>` ==***
 
 | Input | Output |
 | ------ | ------ |
@@ -362,7 +362,8 @@ You're starting to think that the AI is just blatantly using you. But you still 
     The function of the lock's circle usually looks like this: x^2 + y^2 = 25. 
     So, good luck to you, "human"! I hope to see you in the next room. Hehe. 
 
-***== Quest 7 received. Create an src/crack.c program that receives two floating-point numbers and outputs "GOTCHA" if the coordinates of the point are inside the circle, and "MISS" otherwise. Provide for entering only numbers — in case of an error, output n/a ==***
+***== Quest 7 received. Create an src/crack.c program that receives two floating-point numbers and outputs "GOTCHA" if the coordinates of the point are inside the circle, and "MISS" otherwise. Provide for entering only numbers — in case of an error, output n/a, can be used 
+only `<stdio.h>`. ==***
 
 | Input | Output |
 | ------ | ------ |
