@@ -256,12 +256,13 @@ You finish the introduction module for the second time and decide to start the A
     It can give me a headache.
     (Joking.)
 
-***== Quest 3 received. Create an src/arithmetic.c program that receives two integers via stdin and outputs their sum, difference, product, and quotient, separated by a space in this particular order. Add a check for the input data so the program only receives numbers. The answer must not end with a space. Add the option for processing division by zero (output "n/a"). Only source files with code and data files (if necessary) should be pushed to git (to the src directory, develop branch). It is allowed to connect only the header file `<stdio.h>` ==***
+***== Quest 3 received. Create an src/arithmetic.c program that receives two integers via stdin and outputs their sum, difference, product, and quotient, separated by a space in this particular order. Add a check for the input data so the program only receives integers. The answer must not end with a space. Add the option for processing division by zero. In case of any error, output "n/a". Only source files with code and data files (if necessary) should be pushed to git (to the src directory, develop branch). It is allowed to connect only the header file `<stdio.h>` ==***
 
 | Input | Output |
 | ------ | ------ |
 | 8 2 | 10 6 16 4 |
 | 1 0 | 1 1 0 n/a |
+| 3 2 | 5 1 6 1 |
 
 ***LOADING…***
 
