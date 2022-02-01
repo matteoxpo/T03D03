@@ -136,6 +136,7 @@ Comments start with "/*" and end with "*/" and can take up multiple lines. There
 >**CHEAT SHEET (DOOR):**
 >- Remember that the git cheat sheet is in your left pocket!
 >- To access the AI, start the ai module.
+>- The styles cheat sheet is in your right pocket, don't mix it up! The AI likes styles, don't forget to follow them!
 >- You can find additional information... somewhere.
 >- This thing has control over the doors. Try not to make it angry. The module has not been fully debugged yet.
 >- Tighten up the chair!
@@ -168,7 +169,7 @@ created module.
 
 ***== Quest 1 received. Create an src/hello.c program that displays "Hello, AI!" on the screen using the formatted output functions from the standard library. Here and elsewhere, all programs must be written in C programming language C11 standard using the GCC compiler, flags -Wall, -Werror, -Wextra and the Google C++ Style Guide; only source files with code and data files (if necessary) should be pushed to git (to the src directory, develop branch). It is allowed to connect only the header file `<stdio.h>` ==***
 
->**Note:** From this day forward, your solutions will be checked by autotests and for code style!
+>**Note:** From this day forward, your solutions will be checked by autotests!
 
 ***LOADING…***
 
@@ -260,7 +261,7 @@ You finish the introduction module for the second time and decide to start the A
 
 ***== Quest 3 received. Create an src/arithmetic.c program that receives two integers via stdin and outputs their sum, difference, product, and quotient, separated by a space in this particular order. Add a check for the input data so the program only receives integers. The answer must not end with a space. Add the option for processing division by zero. In case of any error, output "n/a". Only source files with code and data files (if necessary) should be pushed to git (to the src directory, develop branch). It is allowed to connect only the header file `<stdio.h>` ==***
 
->**Note:** In this and the following quests you must strictly follow the input and output formats given in the sample table! Pay attention to whether it is necessary to add the newlines in the output!
+>**Note:** In this and the following quests you must strictly follow the input and output formats given in the sample table!
 
 | Input | Output |
 | ------ | ------ |
