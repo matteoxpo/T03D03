@@ -73,7 +73,7 @@ You notice a couple of wrinkled and old pieces of paper underneath. They look li
 >The C programming language was created by Dennis Ritchie from Bell Labs in 1973 as a high-level programming language for the development of the Unix operating system. Later on, it was adopted by numerous other platforms.
 C is a language of procedural (structured) programming: a program written in C includes a set of procedures or functions. These procedures and functions contain various instructions: declarations, operators, and other elements, which together describe the algorithm of the computing system's operation. The name of a program's entry point—main (main function). It can either have no formal parameters or receive data from the command line. The body of functions is described as a compound statement and enclosed in curly braces ( { } ). C works with variables that must be declared before they can be used in the program code. All simple C statements end with a semicolon. Any expression with a semicolon makes a statement. \
 TRUST \
-Comments start with "/*" and end with "*/" and can take up multiple lines. There are single-line comments that start with "//". Comments do not do anything useful: they serve to make it easier for developers to understand the code. You shouldn't overuse them: the best code is the code that speaks for itself, without any comments.
+Comments start with " /* " and end with " */ " and can take up multiple lines. There are single-line comments that start with "//". Comments do not do anything useful: they serve to make it easier for developers to understand the code. You shouldn't overuse them: the best code is the code that speaks for itself, without any comments.
 ...
 
 \> *Take the second sheet of paper*
