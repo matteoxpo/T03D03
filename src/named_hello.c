@@ -6,5 +6,5 @@ int main() {
     printf("\nОшибка ввода. Попробуйте снова:");
   }
   printf("Hello, %d!", name);
-  return 0;
+  return 0
 }

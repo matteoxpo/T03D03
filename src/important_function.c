@@ -24,4 +24,3 @@ double func(double x) {
            x * pow((10 + x), 2 / x) - 1.01;
   return result;
 }
-    
